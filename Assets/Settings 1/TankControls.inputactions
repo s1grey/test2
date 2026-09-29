@@ -7,26 +7,90 @@
             "id": "64c4466f-3622-4d1f-83d0-8b8adaf0e295",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Handbreak",
                     "type": "Button",
                     "id": "8508fea6-dff1-42e0-8d24-f98ae2c2ec36",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "d59186d8-2f20-4d1c-aa3d-7ffdbf58b4de",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "3488225a-3f0c-488e-80a6-ff263dc377ff",
-                    "path": "",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Handbreak",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "19f5ab55-8e82-41dc-a1d5-9f74eeaf692a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "8acce352-04bb-4bba-9f64-2e5090040cc4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d63650d7-4ad1-4af0-81f5-46b621341c58",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "89e87663-eb0b-4db4-a11e-bd6bd31112df",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "be93af26-5cdd-46c0-8987-10cc3a6068f9",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
@@ -35,24 +99,44 @@
             "id": "32fb7523-4a96-4dec-9ca4-6119e7c0c1a8",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Fire",
                     "type": "Button",
                     "id": "4ddfaad6-f993-4bf0-a073-9dc83b749f1f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Focus",
+                    "type": "Value",
+                    "id": "a411255b-f869-442a-846c-ca3ef5915a1e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "3e1c76c5-38e3-4248-aa81-4e0770f4d006",
-                    "path": "",
+                    "id": "b7cc8e0d-9ece-4f85-9c4f-08ce474ccaf8",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8273b557-2a0b-4ba1-bcd9-c217ca4211fe",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Focus",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

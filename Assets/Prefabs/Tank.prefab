@@ -96,9 +96,9 @@ GameObject:
   - component: {fileID: 5702783219395363541}
   - component: {fileID: 2010197131828353989}
   - component: {fileID: 9093337321878141732}
-  - component: {fileID: 3150118047709391980}
   - component: {fileID: 5489629387005073005}
   - component: {fileID: 639960612016497973}
+  - component: {fileID: 6951612161330992027}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -228,20 +228,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8964106073494916162, guid: 3d210b2be9d4b9144b53828dfc2e73e3, type: 3}
---- !u!114 &3150118047709391980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742184594777522087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b3e21422e254466810369536a65b19b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _accelerationPower: 1
-  _fireDelaySec: 1
 --- !u!114 &5489629387005073005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +352,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6951612161330992027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742184594777522087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6213543e868e4a008eaa9de7f85ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 1
 --- !u!1 &3245989011091907193
 GameObject:
   m_ObjectHideFlags: 0
