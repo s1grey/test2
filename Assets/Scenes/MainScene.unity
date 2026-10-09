@@ -290,6 +290,30 @@ PrefabInstance:
       addedObject: {fileID: 2002783320}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
+--- !u!1 &691122534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4735767822119291202, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+    type: 3}
+  m_PrefabInstance: {fileID: 839522886350502921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &691122538
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691122534}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 7c46a7f251067884abf479c28885422b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2a0185af45c6b6b4aaf4fe0e0052e3c7, type: 2}
+  - {fileID: 7400000, guid: 0fc641b953e0f184fb7f1d7cde59f78e, type: 2}
+  - {fileID: 7400000, guid: 0dab365fd45b06c43bf6fc0611faaba2, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &846243163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1694,6 +1718,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 389884483181591437, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 4.64
+      objectReference: {fileID: 0}
     - target: {fileID: 5725688221078796668, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
         type: 3}
       propertyPath: m_Name
@@ -1802,7 +1831,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4735767822119291202, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 691122538}
   m_SourcePrefab: {fileID: 100100000, guid: 6d78de7dc6e2b5242b205a94a3ecdca0, type: 3}
 --- !u!1001 &1235049261387056610
 PrefabInstance:
