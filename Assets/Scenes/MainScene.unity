@@ -310,6 +310,9 @@ Animation:
   - {fileID: 7400000, guid: 2a0185af45c6b6b4aaf4fe0e0052e3c7, type: 2}
   - {fileID: 7400000, guid: 0fc641b953e0f184fb7f1d7cde59f78e, type: 2}
   - {fileID: 7400000, guid: 0dab365fd45b06c43bf6fc0611faaba2, type: 2}
+  - {fileID: 7400000, guid: 0cb11c20be0657e40b932cdee82ee58f, type: 2}
+  - {fileID: 7400000, guid: f8a51444194d68c4d950d3ea5a9517cc, type: 2}
+  - {fileID: 7400000, guid: 4395b8fe2ab18dd41ab72ea5e963d6fd, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1721,7 +1724,27 @@ PrefabInstance:
     - target: {fileID: 389884483181591437, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 4.64
+      value: 0.5199995
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427820467318324770, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.24886163
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427820467318324770, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427820467318324770, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427820467318324770, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4282319065
       objectReference: {fileID: 0}
     - target: {fileID: 5725688221078796668, guid: 6d78de7dc6e2b5242b205a94a3ecdca0,
         type: 3}

@@ -15,19 +15,19 @@ MonoBehaviour:
   <Settings>k__BackingField:
   - Mult: 1
     Text: Wow
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 2a0185af45c6b6b4aaf4fe0e0052e3c7, type: 2}
   - Mult: 2
     Text: Wow 2
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 2a0185af45c6b6b4aaf4fe0e0052e3c7, type: 2}
   - Mult: 3
     Text: Wow 3
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 0fc641b953e0f184fb7f1d7cde59f78e, type: 2}
   - Mult: 4
     Text: Wow 4
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 0dab365fd45b06c43bf6fc0611faaba2, type: 2}
   - Mult: 5
     Text: Wow 5
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 0cb11c20be0657e40b932cdee82ee58f, type: 2}
   - Mult: 6
     Text: Wow 6
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: f8a51444194d68c4d950d3ea5a9517cc, type: 2}
